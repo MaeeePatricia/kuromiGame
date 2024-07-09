@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dde1e7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 600px; /* Adjusted width */
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #dde1e7;
+    box-shadow: -5px -5px 9px rgba(255, 255, 255, 0.45), 5px 5px 9px rgba(94, 104, 121, 0.3);
+    border-radius: 20px;
+    text-align: center; /* Center the content */
+}
+
+.menu {
+    text-align: center;
+}
+
+    .menu img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        border-radius: 20px;
+        box-shadow: -5px -5px 9px rgba(255, 255, 255, 0.45), 5px 5px 9px rgba(94, 104, 121, 0.3);
+    }
+
+.table-container {
+    overflow-x: auto;
+    margin: 20px auto;
+}
+
+#orderTable,
+#summaryTable {
+    width: auto;
+    border-collapse: collapse;
+    background-color: #dde1e7;
+    margin: 0 auto;
+    box-shadow: -5px -5px 9px rgba(255, 255, 255, 0.45), 5px 5px 9px rgba(94, 104, 121, 0.3);
+    border-radius: 20px;
+}
+
+    #orderTable th,
+    #orderTable td,
+    #summaryTable th,
+    #summaryTable td {
+        padding: 8px;
+        text-align: center;
+        border: none;
+        font-size: 16px;
+    }
+
+    #orderTable th,
+    #summaryTable th {
+        background-color: #FF69B4;
+        color: #fff;
+        border-radius: 10px;
+    }
+
+.item {
+    margin: auto; /* Center the container */
+    margin-bottom: 15px;
+    text-align: center; /* Center the content */
+    background-color: #dde1e7;
+    box-shadow: -5px -5px 9px rgba(255, 255, 255, 0.45), 5px 5px 9px rgba(94, 104, 121, 0.3);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+label {
+    display: inline-block;
+    width: 120px;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 200px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #dde1e7;
+    box-shadow: inset -3px -3px 5px rgba(255, 255, 255, 0.45), inset 3px 3px 5px rgba(94, 104, 121, 0.3);
+}
+
+#doneButton {
+    background-color: #FF69B4;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: -5px -5px 9px rgba(255, 255, 255, 0.45), 5px 5px 9px rgba(94, 104, 121, 0.3);
+}
+
+    #doneButton:hover {
+        background-color: #D870A9;
+    }
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: -5px -5px 9px rgba(255, 255, 255, 0.45), 5px 5px 9px rgba(94, 104, 121, 0.3);
+}
